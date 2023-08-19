@@ -1,0 +1,52 @@
+/* Initialisation de la page */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000075;
+    width: 100%;
+    color: #fff;
+}
+
+/* Design sur formulaire */
+.formulaire{
+    background-color: whitesmoke;
+    width: 500px;
+    margin: auto;
+    margin-top: 200px;
+    padding: 30px;
+    color: #222121;
+}
+
+form h2{
+    color: #222121;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    font-style: italic;
+}
+
+form label{
+    font-size: 1.5em;
+}
+
+form input{
+    width: 100%;
+    padding: 10px;
+}
+
+.mdp{
+    margin: 20px 0;
+}
+
+.btn button{
+    background-color: #000075;
+    color: #fff;
+    font-size: 1.5em;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}

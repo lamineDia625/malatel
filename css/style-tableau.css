@@ -1,0 +1,41 @@
+body{
+    background-color: #838383;
+}
+
+div.container{
+    background-color: #ffffffba;
+    width: 90%;
+    margin: auto;
+    padding: 50px;
+}
+
+.container h1{
+    color: #000075;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr, td{
+    border: 1px solid #1d1d1d;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+thead tr{
+    background-color: #000;
+    color: #fff;
+    font-size: 1.8em;
+    font-style: italic;
+}
+
+tbody tr:hover{
+    background-color: #838383;
+}
